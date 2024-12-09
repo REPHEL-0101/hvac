@@ -1,1 +1,24 @@
+:root {
+            --primary-color: #1E4287;  /* Deep Blue */
+            --secondary-color: #4D7298;  /* Slate Blue */
+            --accent-color: #F5F5F5;  /* Light Gray */
+            --text-color: #333333;
+        }
 
+body {
+    font-family: 'Arial', sans-serif;
+    color: var(--text-color);
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.services-section {
+    background-color: var(--accent-color);
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}

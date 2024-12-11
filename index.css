@@ -22,3 +22,27 @@ body {
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
+
+.animate {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-in-out;
+  }
+  .animate.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .zoom-in {
+    transform: scale(0.8);
+  }
+  .zoom-in.visible {
+    transform: scale(1);
+  }
+  .fade-in {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }

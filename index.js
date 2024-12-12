@@ -226,7 +226,7 @@ function populateFooter() {
             <i class="bi bi-geo-alt"></i> ${websiteContent.contact.address.street}<br>
             <i class="bi bi-telephone"></i> ${websiteContent.contact.address.phone}<br>
             <i class="bi bi-envelope"></i> For Enquiries : ${websiteContent.contact.address.enquiryEmail}<br>
-            <i class="bi bi-envelope"></i> For Communication : ${websiteContent.contact.address.communicationEmail}<br>
+            <i class="bi bi-envelope-fill"></i> For Communication : ${websiteContent.contact.address.communicationEmail}<br>
         </p>
     `;
 

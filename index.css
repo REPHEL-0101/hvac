@@ -92,3 +92,24 @@ a:hover {
 	transform: translateX(0);
 }
 
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    display: none;
+    cursor: pointer;
+    background-color: rgb(53, 171, 53);
+    border-radius: 35%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#backToTop img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    display: block;
+}

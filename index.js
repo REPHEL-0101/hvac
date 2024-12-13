@@ -251,3 +251,25 @@ function initializePage() {
 }
 
 document.addEventListener('DOMContentLoaded', initializePage);
+
+let backToTopBtn = () => {
+    const backToTop = document.getElementById('backToTop');
+    let pos = document.documentElement.scrollTop;
+    
+    if (pos > 100) {
+        backToTop.style.display = 'flex';
+    } else {
+        backToTop.style.display = 'none';
+    }
+
+    backToTop.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+        backToTop.classList.remove('visible')
+    });
+};
+
+window.onscroll = backToTopBtn;
+window.onload = backToTopBtn;

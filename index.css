@@ -91,3 +91,10 @@ a:hover {
     opacity: 1;
     transform: translateX(0);
   }
+
+  .fixed{
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    z-index: 1;
+}     

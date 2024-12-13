@@ -257,9 +257,9 @@ let backToTopBtn = () => {
     let pos = document.documentElement.scrollTop;
     
     if (pos > 100) {
-        backToTop.style.display = 'flex';
+        backToTop.classList.add('show');
     } else {
-        backToTop.style.display = 'none';
+        backToTop.classList.remove('show');
     }
 
     backToTop.addEventListener('click', () => {
@@ -267,7 +267,6 @@ let backToTopBtn = () => {
             top: 0,
             behavior: 'smooth'
         });
-        backToTop.classList.remove('visible')
     });
 };
 

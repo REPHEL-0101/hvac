@@ -79,7 +79,6 @@ a:hover {
   }
   .zoom-in {
     transform: scale(0.8);
-    
   }
   .zoom-in.visible {
     transform: scale(1);

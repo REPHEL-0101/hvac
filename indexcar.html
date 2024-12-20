@@ -1,0 +1,743 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FICUS HVAC Engg Pvt Ltd</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/ico" href="Images/favicon.ico">
+
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="fan">
+            <div class="blade blade1"></div>
+            <div class="blade blade2"></div>
+            <div class="blade blade3"></div>
+            <div class="blade blade4"></div>
+        </div>
+        <p class="loading-text">Cooling Things Down...</p>
+    </div> 
+
+    <!-- Header / Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="Images/logo.png" alt="logo" width="50">
+                    <span style="color: var(--primary-color); font-family: 'Nunito', sans-serif; font-weight: 900;">FICUS HVAC</span> 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner / Carousel -->
+    <section id="home" class="mb-4">
+        <div id="heroBanner" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Images/c1.png" class="d-block w-100" alt="HVAC Installation">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/c2.png" class="d-block w-100" alt="AC Maintenance">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/c3.png" class="d-block w-100" alt="Commercial HVAC">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Why Section -->
+<!-- <section class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="text-center mb-4">Why Choose FICUS HVAC?</h2>
+      <div class="row gy-4">
+        <div class="col-md-4">
+          <div class="card h-100 text-center border-0 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-tools fs-1 text-primary mb-3"></i>
+              <h5 class="card-title">Expert Technicians</h5>
+              <p class="card-text">Our skilled professionals ensure precise installations, repairs, and maintenance with unmatched expertise.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center border-0 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-lightning fs-1 text-primary mb-3"></i>
+              <h5 class="card-title">Energy Efficiency</h5>
+              <p class="card-text">We offer cutting-edge, energy-efficient HVAC systems that reduce utility costs and minimize environmental impact.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center border-0 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-emoji-smile fs-1 text-primary mb-3"></i>
+              <h5 class="card-title">Customer Satisfaction</h5>
+              <p class="card-text">We prioritize your comfort with tailored solutions and reliable, prompt customer support.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  
+    <section class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="text-center mb-5 animate zoom-in">Why Choose FICUS HVAC?</h2>
+            <div class="row align-items-center mb-4 animate fade-in-left">
+                <div class="col-md-6">
+                    <img src="Images/w1.jpg" alt="Expert Technicians" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-6">
+                    <h4 class="mb-3">HVAC Solution Providers</h4>
+                    <p style="color: whitesmoke;">Our professional engineers bring years of knowledge and experience to every project, ensuring installation as per engineering standards to avoid major service failures for your HVAC systems.
+                </div>
+            </div>
+            <div class="row align-items-center mb-4 flex-md-row-reverse animate fade-in-right">
+                <div class="col-md-6">
+                    <img src="Images/w2.jpg" alt="Energy Efficiency" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-6">
+                    <h4 class="mb-3">Energy Efficiency</h4>
+                    <p style="color: whitesmoke;">We focus on cutting-edge, energy-efficient, value engineering HVAC solutions that help you save on energy costs while reducing your carbon footprint.</p>
+                </div>
+            </div>
+            <div class="row align-items-center animate fade-in-left">
+                <div class="col-md-6">
+                    <img src="Images/w3.jpg" alt="Customer Satisfaction" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-6">
+                    <h4 class="mb-3">Customer Satisfaction</h4>
+                    <p style="color: whitesmoke;">Your comfort is our priority. We provide customized solutions, prompt support, and reliable service to ensure your complete satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision and Mission -->
+    <section id="Vision" class="container my-5 bg-light">
+        <div class="row">
+            <!-- Column 1 -->
+            <div class="col-md-6 text-center">
+                <h2 class="animate fade-in-left">Vision</h2>
+                <img src="Images/v1.png" alt="Vision" class="img-fluid mb-3 animate fade-in-left">
+                <p class="animate fade-in">
+                    The company's long term vision is to be more creative, understanding and more customers centric thus developing a long and healthy working relationship
+                </p>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-md-6 text-center">
+                <h2 class="animate fade-in-right">Mission</h2>
+                <img src="Images/m1.png" alt="Mission" class="img-fluid mb-3 animate fade-in-right">
+                <p class="animate fade-in-right">
+                    FICUS HVAC aims to design, detailed engineering, install, service, and maintain cost effective, customized modern  Heating, Ventilation, Air conditioning services to all our clients at affordable cost.
+                </p>
+            </div>
+        </div>
+    </section>
+
+      <!-- About Section -->
+      <section id="about" class="container my-5">
+          <div class="row align-items-center">
+              <div class="col-md-6">
+                  <h2 class="mb-4 animate fade-in">About FICUS HVAC</h2>
+                    <p class="animate fade-in">
+                        FICUS HVAC has been established in 2024 with a vision of raising the bar of excellence and providing quality services in Heating, Ventilation and Air Conditioning field. 
+                    </p>
+                    <p class="animate fade-in">
+                        Mr.P.Arumugam - CEO (Engineering Graduate from BITS, Pilani) has been instrumental to establish this organization as he has been a vast experience of around 24 years in all sectors in terms of design, detailed engineering, Execution, Testing and Commissioning (Commercial Buildings – Low side Interior Fit out projects with Fast Track mechanism & High Side works, Industrial Projects like Atomic & Thermal Power Plants, Steel Manufacturing Plants, Pharmaceuticals, Highly Critical projects like Clean Rooms, Bio Labs etc, Retro Fit-out works etc., ) in the HVAC industry.
+                    </p>
+              </div>
+              <div class="col-md-6">
+                  <img src="Images/Abt.png" class="img-fluid rounded animate fade-in-right" alt="Our Team">
+              </div>
+          </div>
+      </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section py-5">
+      <div class="container">
+          <h2 class="text-center mb-5 zoom-in animate">Our Services</h2>
+          <div class="row">
+            <!-- Air Conditioning -->
+            <div class="col-md-4 mb-4">
+                <div class="card card-hover text-center p-4 animate fade-in-left">
+                    <i class="bi bi-wind fs-1 mb-3 zoom-in animate fade-in-left"></i>
+                    <h4 class="animate fade-in-left">AIR CONDITIONING</h4>
+                    <p class="animate fade-in-left">Advanced cooling for optimal comfort.</p>
+                </div>
+            </div>
+        
+            <!-- Dry Ventilation -->
+            <div class="col-md-4 mb-4">
+                <div class="card card-hover text-center p-4 animate fade-in-left">
+                    <i class="bi bi-fan fs-1 mb-3 zoom-in animate fade-in-left"></i>
+                    <h4 class="animate fade-in-left">DRY VENTILATION</h4>
+                    <p class="animate fade-in-left">Efficient airflow for dry environments.</p>
+                </div>
+            </div>
+        
+            <!-- Evaporative Cooling -->
+            <div class="col-md-4 mb-4">
+                <div class="card card-hover text-center p-4 animate fade-in-left">
+                    <i class="bi bi-droplet-half fs-1 mb-3 zoom-in animate fade-in-left"></i>
+                    <h4 class="animate fade-in-left">EVAPORATIVE COOLING</h4>
+                    <p class="animate fade-in-left">Energy-efficient natural cooling systems.</p>
+                </div>
+            </div>
+        
+            <!-- Clean Rooms & Bio Safety Labs -->
+            <div class="col-md-4 mb-4">
+                <div class="card card-hover text-center p-4 animate fade-in-left">
+                    <i class="bi bi-shield-check fs-1 mb-3 zoom-in animate fade-in-left"></i>
+                    <h4 class="animate fade-in-left">CLEAN ROOMS & BIO SAFETY LABS</h4>
+                    <p class="animate fade-in-left">Controlled environments for sensitive operations.</p>
+                </div>
+            </div>
+        
+            <!-- Heating System -->
+            <div class="col-md-4 mb-4">
+                <div class="card card-hover text-center p-4 animate fade-in-left">
+                    <i class="bi bi-thermometer-high fs-1 mb-3 zoom-in animate fade-in-left"></i>
+                    <h4 class="animate fade-in-left">HEATING SYSTEM</h4>
+                    <p class="animate fade-in-left">Reliable heating solutions for buildings.</p>
+                </div>
+            </div>
+        
+            <!-- Green Building / LEED Compatibility -->
+            <div class="col-md-4 mb-4">
+                <div class="card card-hover text-center p-4 animate fade-in-left">
+                    <i class="bi bi-house fs-1 mb-3 zoom-in animate fade-in-left"></i>
+                    <h4 class="animate fade-in-left">GREEN BUILDING / LEED COMPATIBILITY</h4>
+                    <p class="animate fade-in-left">Eco-friendly designs for sustainable growth.</p>
+                </div>
+            </div>
+        
+            <!-- Firefighting System -->
+            <div class="col-md-4 mb-4">
+                <div class="card card-hover text-center p-4 animate fade-in-left">
+                    <i class="bi bi-fire fs-1 mb-3 zoom-in animate fade-in-left"></i>
+                    <h4 class="animate fade-in-left">FIREFIGHTING SYSTEM</h4>
+                    <p class="animate fade-in-left">Advanced fire safety and suppression systems.</p>
+                </div>
+            </div>
+        
+            <!-- PLC & Building Management System -->
+            <div class="col-md-4 mb-4">
+                <div class="card card-hover text-center p-4 animate fade-in-left">
+                    <i class="bi bi-sliders fs-1 mb-3 zoom-in animate fade-in-left"></i>
+                    <h4 class="animate fade-in-left">PLC & BUILDING MANAGEMENT SYSTEM</h4>
+                    <p class="animate fade-in-left">Automated control for building systems.</p>
+                </div>
+            </div>
+        
+            <!-- Low Humidity System -->
+            <div class="col-md-4 mb-4">
+                <div class="card card-hover text-center p-4 animate fade-in-left">
+                    <i class="bi bi-droplet fs-1 mb-3 zoom-in animate fade-in-left"></i>
+                    <h4 class="animate fade-in-left">LOW HUMIDITY SYSTEM</h4>
+                    <p class="animate fade-in-left">Precision humidity control for critical needs.</p>
+                </div>
+            </div>
+        </div>
+        
+      </div>
+    </section>
+
+    Services Carousel Type
+    <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- First Slide -->
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-wind fs-1 mb-3 zoom-in"></i>
+                            <h4>AIR CONDITIONING</h4>
+                            <p>Advanced cooling for optimal comfort.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-fan fs-1 mb-3 zoom-in"></i>
+                            <h4>DRY VENTILATION</h4>
+                            <p>Efficient airflow for dry environments.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-droplet-half fs-1 mb-3 zoom-in"></i>
+                            <h4>EVAPORATIVE COOLING</h4>
+                            <p>Energy-efficient natural cooling systems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Second Slide -->
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-shield-check fs-1 mb-3 zoom-in"></i>
+                            <h4>CLEAN ROOMS & BIO SAFETY LABS</h4>
+                            <p>Controlled environments for sensitive operations.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-thermometer-high fs-1 mb-3 zoom-in"></i>
+                            <h4>HEATING SYSTEM</h4>
+                            <p>Reliable heating solutions for buildings.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-house fs-1 mb-3 zoom-in"></i>
+                            <h4>GREEN BUILDING / LEED COMPATIBILITY</h4>
+                            <p>Eco-friendly designs for sustainable growth.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Third Slide -->
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-fire fs-1 mb-3 zoom-in"></i>
+                            <h4>FIREFIGHTING SYSTEM</h4>
+                            <p>Advanced fire safety and suppression systems.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-sliders fs-1 mb-3 zoom-in"></i>
+                            <h4>PLC & BUILDING MANAGEMENT SYSTEM</h4>
+                            <p>Automated control for building systems.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-droplet fs-1 mb-3 zoom-in"></i>
+                            <h4>LOW HUMIDITY SYSTEM</h4>
+                            <p>Precision humidity control for critical needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> -->
+
+    <!-- Services 3rd type -->
+
+    <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+            <!-- First Slide -->
+            <div class="carousel-item active">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-wind fs-1 mb-3 zoom-in"></i>
+                            <h4>AIR CONDITIONING</h4>
+                            <p>Advanced cooling for optimal comfort.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-fan fs-1 mb-3 zoom-in"></i>
+                            <h4>DRY VENTILATION</h4>
+                            <p>Efficient airflow for dry environments.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-droplet-half fs-1 mb-3 zoom-in"></i>
+                            <h4>EVAPORATIVE COOLING</h4>
+                            <p>Energy-efficient natural cooling systems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Second Slide -->
+            <div class="carousel-item">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-shield-check fs-1 mb-3 zoom-in"></i>
+                            <h4>CLEAN ROOMS & BIO SAFETY LABS</h4>
+                            <p>Controlled environments for sensitive operations.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-thermometer-high fs-1 mb-3 zoom-in"></i>
+                            <h4>HEATING SYSTEM</h4>
+                            <p>Reliable heating solutions for buildings.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-house fs-1 mb-3 zoom-in"></i>
+                            <h4>GREEN BUILDING / LEED COMPATIBILITY</h4>
+                            <p>Eco-friendly designs for sustainable growth.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Third Slide -->
+            <div class="carousel-item">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-fire fs-1 mb-3 zoom-in"></i>
+                            <h4>FIREFIGHTING SYSTEM</h4>
+                            <p>Advanced fire safety and suppression systems.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-sliders fs-1 mb-3 zoom-in"></i>
+                            <h4>PLC & BUILDING MANAGEMENT SYSTEM</h4>
+                            <p>Automated control for building systems.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-hover text-center p-4 h-100">
+                            <i class="bi bi-droplet fs-1 mb-3 zoom-in"></i>
+                            <h4>LOW HUMIDITY SYSTEM</h4>
+                            <p>Precision humidity control for critical needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> -->
+
+    <!-- Services 4th Type -->
+        <!-- Services Section -->
+        <section id="services" class="services-section py-5">
+            <div class="container">
+                <h2 class="text-center mb-5 zoom-in animate">Our Services</h2>
+                <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                    <div class="carousel-inner">
+                        <!-- Service 1 -->
+                        <div class="carousel-item active">
+                            <div class="card card-hover text-center p-4">
+                                <i class="bi bi-wind fs-1 mb-3 zoom-in"></i>
+                                <h4>AIR CONDITIONING</h4>
+                                <p>Advanced cooling for optimal comfort.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Service 2 -->
+                        <div class="carousel-item">
+                            <div class="card card-hover text-center p-4">
+                                <i class="bi bi-fan fs-1 mb-3 zoom-in"></i>
+                                <h4>DRY VENTILATION</h4>
+                                <p>Efficient airflow for dry environments.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Service 3 -->
+                        <div class="carousel-item">
+                            <div class="card card-hover text-center p-4">
+                                <i class="bi bi-droplet-half fs-1 mb-3 zoom-in"></i>
+                                <h4>EVAPORATIVE COOLING</h4>
+                                <p>Energy-efficient natural cooling systems.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Service 4 -->
+                        <div class="carousel-item">
+                            <div class="card card-hover text-center p-4">
+                                <i class="bi bi-shield-check fs-1 mb-3 zoom-in"></i>
+                                <h4>CLEAN ROOMS & BIO SAFETY LABS</h4>
+                                <p>Controlled environments for sensitive operations.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Service 5 -->
+                        <div class="carousel-item">
+                            <div class="card card-hover text-center p-4">
+                                <i class="bi bi-thermometer-high fs-1 mb-3 zoom-in"></i>
+                                <h4>HEATING SYSTEM</h4>
+                                <p>Reliable heating solutions for buildings.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Service 6 -->
+                        <div class="carousel-item">
+                            <div class="card card-hover text-center p-4">
+                                <i class="bi bi-house fs-1 mb-3 zoom-in"></i>
+                                <h4>GREEN BUILDING / LEED COMPATIBILITY</h4>
+                                <p>Eco-friendly designs for sustainable growth.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Service 7 -->
+                        <div class="carousel-item">
+                            <div class="card card-hover text-center p-4">
+                                <i class="bi bi-fire fs-1 mb-3 zoom-in"></i>
+                                <h4>FIREFIGHTING SYSTEM</h4>
+                                <p>Advanced fire safety and suppression systems.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Service 8 -->
+                        <div class="carousel-item">
+                            <div class="card card-hover text-center p-4">
+                                <i class="bi bi-sliders fs-1 mb-3 zoom-in"></i>
+                                <h4>PLC & BUILDING MANAGEMENT SYSTEM</h4>
+                                <p>Automated control for building systems.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Service 9 -->
+                        <div class="carousel-item">
+                            <div class="card card-hover text-center p-4">
+                                <i class="bi bi-droplet fs-1 mb-3 zoom-in"></i>
+                                <h4>LOW HUMIDITY SYSTEM</h4>
+                                <p>Precision humidity control for critical needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+        </section>
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5">
+      <div class="container">
+          <h2 class="text-center mb-5 zoom-in animate">Gallery</h2>
+          <div class="row">
+              <div class="col-md-4 mb-4">
+                  <div class="zoom-in animate">
+                      <img src="Images/g1.png" class="img-fluid" alt="Gallery 1">
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="zoom-in animate">
+                      <img src="Images/g2.png" class="img-fluid" alt="Gallery 2">
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="zoom-in animate">
+                      <img src="Images/g3.png" class="img-fluid" alt="Gallery 3">
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-4 mb-4">
+                  <div class="zoom-in animate">
+                      <img src="Images/g4.jpg" class="img-fluid" alt="Gallery 4">
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="zoom-in animate">
+                      <img src="Images/g5.jpg" class="img-fluid" alt="Gallery 5">
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="zoom-in animate">
+                      <img src="Images/g6.jpg" class="img-fluid" alt="Gallery 6">
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+
+
+
+       <!-- Footer Section -->
+    <footer class="bg-dark text-white py-5" id="contact">
+      <div class="container-fluid">
+        <div class="row justify-content-between">
+          
+          <!-- About Us -->
+          <div class="col-md-4">
+            <h2>Ficus HVAC</h2>
+            <p>Ficus HVAC delivers premium solutions for residential and commercial clients, ensuring year-round comfort with eco-friendly systems. A trusted partner for personalized HVAC services.</p>
+          </div>
+    
+    
+          <!-- Quick Links -->
+          <!-- <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><i class="fas fa-chevron-right text-warning me-2"></i><a href="#home" class="text-white text-decoration-none">Home</a></li>
+              <li class="mb-2"><i class="fas fa-chevron-right text-warning me-2"></i><a href="#about" class="text-white text-decoration-none">About</a></li>
+              <li class="mb-2"><i class="fas fa-chevron-right text-warning me-2"></i><a href="#services" class="text-white text-decoration-none">Services</a></li>
+              <li class="mb-2"><i class="fas fa-chevron-right text-warning me-2"></i><a href="#gallery" class="text-white text-decoration-none">Gallery</a></li>
+              <li><i class="fas fa-chevron-right text-warning me-2"></i><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+            </ul>
+          </div> -->
+    
+          <!-- Business Hours -->
+          <div class="col-md-4">
+            <h5>Business Hours</h5>
+            <ul class="list-unstyled">
+              <li>Monday - Saturday: 9:00 AM - 6:30 PM</li>
+              <!-- <li>Saturday: 9:00 AM - 2:00 PM</li> -->
+              <li>Sunday: Closed</li>
+            </ul>
+            <h5>Connect with Us</h5>
+            <div>
+                <a href="#" class="me-3"><i class="fab fa-facebook" style="color: #3b5998;"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-twitter" style="color: #1da1f2;"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-instagram" style="color: #e4405f;"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-linkedin" style="color: #0077b5;"></i></a>
+                <a href="#" class="me-3"><i class="fab fa-youtube" style="color: #ff0000;"></i></a>
+              </div>
+          </div>
+    
+          <!-- Contact Us -->
+          <div class="col-md-4">
+            <h5>Contact Us</h5>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-geo-alt-fill text-danger me-2"></i><strong> Address: </strong>#4/81a - 1st floor, 1st Street,<br> Balaji Nagar, Pozhichalur, Chennai - 600 074</li>
+              <li><i class="bi bi-telephone-fill text-success me-2"></i> <strong> Mobile: </strong>+91 97899 00325</li>
+              <li><i class="bi bi-envelope-fill text-primary me-2"></i><strong> Enquiries: </strong>sales@ficushvac.com <strong>or</strong> <br> arumugam@ficushvac.com<br></li>
+              <li><i class="bi bi-envelope text-primary me-2"></i><strong> Others:</strong> info@ficushvac.com</li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Whatsapp logo -->
+    <div id="fixed" class="animate">
+        <a href="https://wa.me/919789900325?text=Hello%21%20I%E2%80%99m%20interested%20in%20knowing%20more%20about%20your%20HVAC%20services.%20Could%20you%20please%20provide%20more%20details%3F" target="_blank">
+            <img src="Images/WhatsApp.png" alt="Whatsapp logo" width="30%" height="30%">
+        </a>        
+    </div>
+
+    <!-- Back to Top Button -->
+    <div id="backToTop" class="animate">
+        <i class="bi bi-caret-up-fill"></i>
+      <!-- <img src="Images/hvac.png" alt ="Back to Top" /> -->
+    </div>
+  
+    <!-- Copyright Section -->
+    <section class="bg-secondary text-white py-2">
+      <div class="container text-center">
+        <p>&copy; <span id="year"></span> Ficus HVAC Engg Pvt Ltd. All Rights Reserved. Developed by <a href="https://lokiwebvibe.com" target="_blank" class="text-decoration-none fw-bold text-warning">Loki Web Vibe</a>.</p>
+      </div>
+    </section>
+
+    <!-- JavaScript for Dynamic Year -->
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+    <!-- Required Icons (Add this in <head> or above) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    
+    <!-- Custom JS -->
+    <script src="index.js"></script>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap and Custom Script -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script>
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+            });
+        });
+        document.querySelectorAll('.animate').forEach(element => observer.observe(element));
+
+        let backToTopBtn = () => {
+            const backToTop = document.getElementById('backToTop');
+            let pos = document.documentElement.scrollTop;
+            
+            if (pos > 100) {
+                backToTop.classList.add('show');
+            } else {
+                backToTop.classList.remove('show');
+            }
+
+            backToTop.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        };
+
+        window.onscroll = backToTopBtn;
+        window.onload = backToTopBtn;
+
+        const preloader = document.getElementById("preloader");
+        window.addEventListener("load", () => {
+            preloader.style.opacity = "0";
+            setTimeout(() => {
+                preloader.style.display = "none";
+            }, 500); 
+        });
+    </script>
+  </body>
+  </html>
